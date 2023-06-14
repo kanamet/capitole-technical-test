@@ -1,0 +1,87 @@
+[
+  {
+    "title": "Test Case 1",
+    "input": {
+      "productId": 35455,
+      "brandId": 1,
+      "date": "2020-06-14T10:00:00"
+    },
+    "expected": {
+      "productId": 35455,
+      "brandId": 1,
+      "priceList": 1,
+      "price": 35.50,
+      "currency": "EUR",
+      "startDate": "2020-06-14T00:00:00",
+      "endDate": "2020-12-31T23:59:59"
+    }
+  },
+  {
+    "title": "Test Case 2",
+    "input": {
+      "productId": 35455,
+      "brandId": 1,
+      "date": "2020-06-14T16:00:00"
+    },
+    "expected": {
+      "productId": 35455,
+      "brandId": 1,
+      "priceList": 2,
+      "price": 25.45,
+      "currency": "EUR",
+      "startDate": "2020-06-14T15:00:00",
+      "endDate": "2020-06-14T18:30:00"
+    }
+  },
+  {
+    "title": "Test Case 3",
+    "input": {
+      "productId": 35455,
+      "brandId": 1,
+      "date": "2020-06-14T21:00:00"
+    },
+    "expected": {
+      "productId": 35455,
+      "brandId": 1,
+      "priceList": 1,
+      "price": 35.50,
+      "currency": "EUR",
+      "startDate": "2020-06-14T00:00:00",
+      "endDate": "2020-12-31T23:59:59"
+    }
+  },
+  {
+    "title": "Test Case 4",
+    "input": {
+      "productId": 35455,
+      "brandId": 1,
+      "date": "2020-06-15T10:00:00"
+    },
+    "expected": {
+      "productId": 35455,
+      "brandId": 1,
+      "priceList": 3,
+      "price": 30.50,
+      "currency": "EUR",
+      "startDate": "2020-06-15T00:00:00",
+      "endDate": "2020-06-15T11:00:00"
+    }
+  },
+  {
+    "title": "Test Case 5",
+    "input": {
+      "productId": 35455,
+      "brandId": 1,
+      "date": "2020-06-16T21:00:00"
+    },
+    "expected": {
+      "productId": 35455,
+      "brandId": 1,
+      "priceList": 4,
+      "price": 38.95,
+      "currency": "EUR",
+      "startDate": "2020-06-15T16:00:00",
+      "endDate": "2020-12-31T23:59:59"
+    }
+  }
+]
